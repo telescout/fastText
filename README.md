@@ -1,4 +1,9 @@
 # fastText
+
+## Attention
+> This fork is made to significantly reduce the size of dependencies by excluding the numpy package.  
+> From 100Mb to 7Mb by rejecting dumb type conversion.
+
 [fastText](https://fasttext.cc/) is a library for efficient learning of word representations and sentence classification.
 
 [![CircleCI](https://circleci.com/gh/facebookresearch/fastText/tree/master.svg?style=svg)](https://circleci.com/gh/facebookresearch/fastText/tree/master)
