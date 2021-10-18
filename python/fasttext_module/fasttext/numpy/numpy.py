@@ -1,4 +1,4 @@
-def array(a, *args):
+def array(a, **kwargs):
   """
   Stub function of exclude numpy type conversion
 
