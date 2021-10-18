@@ -197,7 +197,7 @@ setup(
     packages=[
         str('fasttext'),
         str('fasttext.util'),
-        str('fasttext.tests'),
+        str('fasttext.numpy'),
     ],
     package_dir={str(''): str('python/fasttext_module')},
     zip_safe=False,
