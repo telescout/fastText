@@ -19,7 +19,7 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
-import numpy as np
+from ..numpy import numpy as np
 import sys
 import shutil
 import os
