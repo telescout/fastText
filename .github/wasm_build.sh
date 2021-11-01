@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 
+
+ls
+
 cd ..
+
+ls
 
 echo "## Installing Emscripten"
 rm -rf emsdk
