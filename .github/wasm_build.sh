@@ -1,15 +1,14 @@
 #!/usr/bin/env bash
 
 
-echo "1Current dir  $(pwd)"
-
-cd /home/runner/work/fastText/fastText
-
 echo "2Current dir  $(pwd)"
 
 echo "## Installing Emscripten"
 rm -rf emsdk
 git clone https://github.com/emscripten-core/emsdk.git
+
+ls
+
 cd emsdk
 echo "3Current dir  $(pwd)"
 ./emsdk install 2.0.32
