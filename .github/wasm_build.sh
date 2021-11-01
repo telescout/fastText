@@ -3,7 +3,7 @@
 
 echo "1Current dir  $(pwd)"
 
-cd ..
+cd /home/runner/work/fastText/fastText
 
 echo "2Current dir  $(pwd)"
 
