@@ -69,7 +69,7 @@ fasttext: $(OBJS) src/fasttext.cc src/main.cc
 	$(CXX) $(CXXFLAGS) $(OBJS) src/main.cc -o fasttext
 
 clean:
-	rm -rf *.o *.gcno *.gcda fasttext *.bc webassembly/fasttext_wasm.js webassembly/fasttext_wasm.wasm dist
+	rm -rf *.o *.gcno *.gcda fasttext *.bc webassembly/fasttext_wasm.js webassembly/fasttext_wasm.wasm dist ./*.js ./*.wasm
 
 
 EMCXX = em++
