@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cd ..
+
 echo "## Installing Emscripten"
 rm -rf emsdk
 git clone https://github.com/emscripten-core/emsdk.git
