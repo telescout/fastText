@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 
 echo "## Installing Emscripten"
 rm -rf emsdk
@@ -19,7 +20,9 @@ echo "## Copy artifacts to dist"
 
 rm -rf dist
 mkdir dist
-cp webassembly/fasttext_wasm.js ./dist
-cp webassembly/fasttext_wasm.wasm ./dist
+# cp webassembly/fasttext_wasm.js ./dist
+# cp webassembly/fasttext_wasm.wasm ./dist
+cd ./dist
+tar cjf fasttext_wasm.tar.bz2 -C ../webassembly  fasttext_wasm.js fasttext_wasm.wasm
 
 echo "## Done"

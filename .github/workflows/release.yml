@@ -1,16 +1,16 @@
 on:
   release:
     types: [created]
-name: Handle Release
+name: Build Assets
 jobs:
   generate:
     name: Create release-artifacts
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '14.15.5'
+    # - uses: actions/setup-node@v2
+    #   with:
+    #     node-version: '14.15.5'
     - name: Build
       run: ./wasm_build.sh
     - name: Upload binaries to release
