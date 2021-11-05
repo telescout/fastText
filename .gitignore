@@ -14,3 +14,7 @@ dist
 /*.wasm
 /*.js
 # emsdk
+webassembly/doc/examples/fasttext_wasm.js
+webassembly/doc/examples/fasttext_wasm.wasm
+webassembly/fasttext_wasm.js
+webassembly/fasttext_wasm.wasm
